@@ -1,0 +1,52 @@
+.myOverlayHome {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #3e3c3c;
+}
+
+.myOverlayHome:hover {
+    opacity: 0.86;
+    transition: .3s ease;
+    background-color: #3e3c3c;
+
+}
+.row.HomeCard{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    /* font-size: 1em; */
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    /* letter-spacing: 0.1em; */
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1519680772-8b5b0b2b1b1a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    transition: .5s ease;
+    gap: 0rem;
+    overflow: hidden;
+   
+    
+}
+.row.HomeCard .card{
+   
+    margin: 0rem 0rem 0rem 0rem;
+    overflow: visible;
+    
+}
+.homeDeckTitle{
+   color: aliceblue;
+   margin-left: 20px;
+}

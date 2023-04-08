@@ -1,0 +1,19 @@
+.movie-card {
+    position: relative;
+}
+
+.movie-card.hide {
+    display: none;
+}
+
+.movie-card.show {
+    display: block;
+}
+
+.movie-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+}

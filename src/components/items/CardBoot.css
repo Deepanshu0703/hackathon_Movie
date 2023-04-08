@@ -1,0 +1,46 @@
+.card{
+    background-color: #545354d0;
+    color: white;
+    /* border: 1px solid #800040; */
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    /* padding: 1rem; */
+    width: 20rem;
+    text-align:center;
+    /* padding-top: 15px; */
+    padding-bottom: 15px;
+    box-shadow: 0 1px 4px rgb(255, 255, 255);
+}
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: auto;
+    width: 80%;
+}
+.myCardList{
+    margin-bottom: 10px;
+}
+
+.myCardList li{
+    background-color: #545354d0;
+}
+.myOverlay{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #452b2f;
+}
+.myOverlay:hover{
+        opacity: 0.86;
+        transition: .3s ease;
+        background-color: #452b2f;
+
+}

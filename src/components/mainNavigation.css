@@ -1,0 +1,76 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c9d;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.myNav li{
+  margin-bottom: 15px;
+}
+
+.myNav a:hover {
+  cursor: pointer;
+  color: #ff3838;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: 0.15s ease-in-out;
+
+}
+
+nav a.active {
+  cursor: pointer;
+    color: #ff3838;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #e50000fd;
+    transition: 0.15s ease-in-out;
+
+}
+
+.myBtn{
+  background-color: #c40202;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.myBtn:hover{
+  background-color: #da0a0ab5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
