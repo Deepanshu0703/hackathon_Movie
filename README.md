@@ -1,4 +1,3 @@
-video link: https://drive.google.com/drive/folders/1P_1XbimlkxtIu_pcOYDKPFbXuGL-1MQV
 
 This website recommends the movie according to the genre selected (its front end was not completed properly, but backend was done, which is demonstrated in videos.
 
